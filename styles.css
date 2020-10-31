@@ -1,0 +1,206 @@
+@media (max-width: 840px) {
+  .ml16 {
+      font-size: 2.5em;
+    }
+}
+@media (min-width: 840px) {
+  .ml16 {
+      font-size: 4em;
+    }
+}
+
+/* General styles */
+
+body {
+  font: 15px 'Open Sans', sans-serif;
+  background-color: #FFD6BA;
+  color: #FAF9F9;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font: 20px 'Open Sans', sans-serif;
+}
+
+footer {
+  padding: 50px 50px 30px;
+}
+
+h2 {
+  padding: 15px 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  padding: 10px 10px;
+}
+
+/* Utilities */
+.newsletter {
+  margin : 0 !important;
+  background-color: #555B6E;
+  color: #FAF9F9;
+  padding: 20px 50px 30px;
+}
+
+.navbar-nav > li{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.purple-bg {
+  background-color: #555B6E;
+}
+
+.light-blue-bg {
+  background-color: #89B0AE;
+}
+
+.white-bg {
+  background-color: #FAF9F9;
+}
+
+.gradient-color {
+  background-color: #555B6E;
+  background-image: linear-gradient(to right, #BEE3DB, #555B6E);
+}
+
+.white-text {
+  color: #FAF9F9;
+}
+
+.purple-text {
+  color: #555B6E;
+}
+
+.black-text {
+  color: #000;
+}
+
+.light-blue-text {
+  color: #89B0AE;
+}
+
+.regular-font {
+  font: 20px 'Open Sans', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-section {
+  padding: 20px 50px 30px;
+}
+
+.anchor-link:hover {
+  color: #89B0AE;
+}
+
+.dropdown-menu a:active {
+  background-color: #555B6E;
+}
+
+.navbar {
+  margin : 0 !important;
+}
+
+
+
+/* Only 1 Page */
+
+.personal-pic {
+  width: 100%;
+  background-image: url('images/personal-pic.jpeg');
+  background-size: cover;
+  filter: brightness(30%);
+  left: 0px;
+}
+
+.newsletter div {
+  padding: 10px;
+}
+
+.item {
+  padding: 15px;
+}
+
+footer a:hover {
+  color: #89B0AE;
+}
+
+.socials .purple-text:hover {
+  color: #89B0AE;
+}
+
+.socials a {
+  padding: 20px 10px;
+}
+
+.tab-pane {
+  padding: 20px 0;
+}
+
+.ml16 {
+  padding: 10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.col-sm-6 {
+  padding: 20px 20px;
+}
+
+.my-quotes {
+  padding: 20px 0 30px;
+}
+
+.carousel-item {
+  padding: 50px 150px;
+}
+
+.values a {
+  color: #FAF9F9;
+}
+
+.values a:hover {
+  color: #89B0AE;
+}
+
+.banner {
+  background-color: #555B6E;
+  padding: 100px 50px;
+  background-image: linear-gradient(to right, #BEE3DB, #555B6E);
+}
+
+.button:hover {
+  color: #89B0AE;
+}
+
+.more-btn {
+  padding: 15px;
+}
+
+.progress-item {
+  padding: 5px 5px;
+}
+
+.description-item {
+  text-align: left;
+  color: #89B0AE;
+}
+
+.description li {
+  font: 18px 'Open Sans', sans-serif;
+}
