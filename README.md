@@ -6,3 +6,4 @@
 - Create CDN for personal pic
 - Filter content by class under "Projects"
 - Complete "Engagements" page
+- Create typewriter effect for main text
