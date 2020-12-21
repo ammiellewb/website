@@ -35,7 +35,8 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
 
   <!-- Set Favicon -->
   <link rel="icon" type="image/png" href="my-favicon-circle.PNG"/>
@@ -54,7 +55,7 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="projects.html">Projects</a>
+          <a class="nav-link active" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -74,166 +75,114 @@
   </nav>
 
 <div class="banner">
-  <h1 class="ml16"><span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span></h1>
+  <h1><b>Portfolio</b>
+  <img class="page-emoji" alt="construction" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/construction_1f6a7.png" alt=""></h1>
 </div>
 
-  <div class="past-newsletters text-section">
-  <h2 class="purple-text subtitle">What I'm up to...</h2>
-  <div class="row">
-    <div class="col-sm-6 col-md-6 col-lg-4 text-section">
-      <div class="card shadow rounded">
-        <img class="card-img-top" src="october-newsletter.PNG" alt="Card image cap">
-        <div class="card-body light-blue-bg">
-          <h3 class="card-title">October 2020</h3>
-          <p class="card-text regular-font">I started my Focus (biocomputing), built my website and much more!</p>
-          <a href="https://mailchi.mp/a0c581634554/ammielles-area-october-newsletter" class="button btn btn-dark btn-lg">Check it out</a>
-        </div>
-      </div>
+<div class="portfolio text-section">
+  <h2 class="subtitle">Past projects</h2>
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link regular-font active white-text" id="writing-tab" data-toggle="tab" href="#writing" role="tab" aria-controls="writing" aria-selected="false">Writing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link regular-font white-text" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="false">Featured videos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link regular-font white-text" id="newsletters-tab" data-toggle="tab" href="#newsletters" role="tab" aria-controls="newsletters" aria-selected="false">Newsletters</a>
+    </li>
+  </ul>
+  <div class="tab-content tab-portfolio" id="myTabContent">
+    <div class="tab-pane fade regular-font show active" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+      <h3>2020</h3>
+      <ul>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://ammiellewb.medium.com/a-primer-on-protein-engineering-5305357427ec">A Primer on Protein Engineering</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://ammiellewb.medium.com/convert-text-to-a-dna-sequence-with-python-19dca0edc9e4">Convert Text to a DNA Sequence with Python</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://ammiellewb.medium.com/storing-digital-data-in-dna-the-future-67e22934a2b9">The Future of Digital Data Storage Lies in DNA</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://ammiellewb.medium.com/biological-computing-or-computational-biology-whats-the-difference-4e774a8812f6">Biological Computing or Computational Biology: What’s the Difference?</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://ammiellewb.medium.com/basics-of-biological-computing-93beb293ef35">Basics of Biological Computing</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://journaljsf.ca/2020/12/19/lutilisation-des-insultes-a-lecole/">L’utilisation des insultes à l’école</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://journaljsf.ca/2020/12/11/comment-prendre-soin-de-soi-pendant-le-confinement/">Comment prendre soin de soi pendant le confinement</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://journaljsf.ca/2020/11/28/comment-demeurer-physiquement-actif-pendant-la-pandemie/">Comment demeurer physiquement actif pendant la pandémie</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://journaljsf.ca/2020/11/21/est-ce-que-le-presentisme-est-raisonnable/">Est-ce que le présentisme est raisonnable?</a></li>
+      </ul>
     </div>
-    <div class="col-sm-6 col-md-6 col-lg-4 text-section">
-      <div class="card shadow rounded">
-        <img class="card-img-top" src="september-newsletter.PNG" alt="Card image cap">
-        <div class="card-body light-blue-bg">
-          <h3 class="card-title">September 2020</h3>
-          <p class="card-text regular-font">I went back to school, joined TKS, met a ton of new people and posted my first YT video.</p>
-          <a href="https://mailchi.mp/1ddb4127ca4a/ammielles-area-september-20" class="button btn btn-dark btn-lg">Check it out</a>
-        </div>
-      </div>
+    <div class="tab-pane fade regular-font" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+      <h3>2020</h3>
+      <ul>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://youtu.be/VA2dFgfvxaw">Consulting for Instacart!?</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://youtu.be/lcC_IT878Yw">15 Things I Wish I'd Known When I Started Programming</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://youtu.be/u_PFuhHj440">Bioethics: What it is and Why it Matters</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://youtu.be/1pLIs7wTNQg">Building a Website from Scratch in 5 Days!</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTM2MTUzOTAzMTI1MDAx?igshid=1tk97y0lyrnde&story_media_id=2439038189806472252">Émissions en direct pour l'Académie du Live S.1 avec le Réveil</a></li>
+      </ul>
     </div>
-  </div>
-
-<div class="more-btn">
-  <a href="https://mailchi.mp/ed4ea5ef0a03/ammielles-area" class="button btn btn-dark btn-lg regular-font">More</a>
-</div>
-</div>
-
-<div class="portfolio text-section purple-bg">
-  <h2 class="white-text subtitle">What I've done...</h2>
-  <div class="row">
-    <!-- <div class="col-sm-6 col-md-6 col-lg-4 text-section">
-      <div class="card shadow rounded">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h3 class="card-title">Video</h3>
-          <p class="card-text">placeholder</p>
-          <a href="#" class="button btn btn-dark btn-small">Check it out</a>
-        </div>
-      </div>
-    </div> -->
-    <div class="col-sm-6 col-md-6 col-lg-4 text-section">
-      <div class="card shadow rounded">
-        <img class="card-img-top" src="journaljsf.JPG" alt="Card image cap">
-        <div class="card-body light-blue-bg">
-          <h3 class="card-title">JournalJSF</h3>
-          <p class="card-text regular-font">As communications officer for the 2020-21 year, I launched a school newspaper!</p>
-          <a href="https://journaljsf.ca/" class="button btn btn-dark btn-lg">Check it out</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-4 text-section">
-      <div class="card shadow rounded">
-        <img class="card-img-top" src="https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png" alt="Card image cap">
-        <div class="card-body light-blue-bg">
-          <h3 class="card-title">Basics of Biological Computers</h3>
-          <p class="card-text regular-font">Covering the basics of biological computing by noting the resemblances between regular computers and biocomputers.</p>
-          <a href="https://medium.com/@amms.wb/basics-of-biological-computing-93beb293ef35" class="button btn btn-dark btn-lg">Check it out</a>
-        </div>
-      </div>
+    <div class="tab-pane fade regular-font" id="newsletters" role="tabpanel" aria-labelledby="newsletters-tab">
+      <h3>2020</h3>
+      <ul>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://mailchi.mp/9deb6c5dd88c/ammielles-area-november-3585646">November newsletter</a> </li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://mailchi.mp/a0c581634554/ammielles-area-october-newsletter">October newsletter</a></li>
+        <li><a class="red-hyperlink hyperlink white-text" href="https://mailchi.mp/1ddb4127ca4a/ammielles-area-september-20">September newsletter</a></li>
+      </ul>
     </div>
   </div>
-
-<div class="more-btn">
-  <a href="https://tks.life/profile/ammielle.wambo.becker#portfolio" class="button btn btn-dark btn-lg regular-font">More</a>
-</div>
-</div>
-
-<div class="progress-items text-section">
-  <h2 class="subtitle purple-text">What I'm learning...</h2>
-
-  <div class="progress-item">
-    <h3 class="light-blue-text">Synthetic biology</h3>
-    <div class="progress white-bg">
-      <div class="progress-bar progress-bar-striped progress-bar-animated purple-bg" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div class="progress-item">
-    <h3 class="light-blue-text">Quantum computing</h3>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated purple-bg" role="progressbar" style="width: 17%" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div class="progress-item">
-    <h3 class="light-blue-text">Biological computing</h3>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated purple-bg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-  <div class="progress-item">
-    <h3 class="light-blue-text">Machine learning</h3>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated purple-bg" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
-
-  <div class="progress-item">
-    <h3 class="light-blue-text">Web development</h3>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated purple-bg" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-  </div>
+<br>
+  <a class="btn button white-bg more-button" style="color:#2D3142" href="https://tks.life/profile/ammielle.wambo.becker#portfolio">More</a>
 
 </div>
 
 
-<div class="gradient-color text-section"></div>
 
-<footer>
-  <p class="purple-text">Get in touch</p>
-  <div class="socials">
-    <a href="mailto:ammiellewb@gmail.com"><i class="fas fa-envelope fa-2x purple-text"></i></a>
-    <a href="https://mailchi.mp/ed4ea5ef0a03/ammielles-area"><i class="fas fa-inbox fa-2x purple-text"></i></a>
-    <a href="https://www.linkedin.com/in/ammielle-wambo-becker-6538231b2"><i class="fab fa-linkedin fa-2x purple-text"></i></a>
-    <a href="https://www.instagram.com/amms.wb/"><i class="fab fa-instagram fa-2x purple-text"></i></a>
-    <a href="https://twitter.com/ammswb"><i class="fab fa-twitter fa-2x purple-text"></i></a>
-    <a href="https://www.youtube.com/channel/UCsp5LFDrt9Ut6pkZBvtOaYA"><i class="fab fa-youtube fa-2x purple-text"></i></a>
-    <a href="https://github.com/ammiellewb"><i class="fab fa-github fa-2x purple-text"></i></a>
-    <a href="https://medium.com/@amms.wb"><i class="fab fa-medium-m fa-2x purple-text"></i></a>
-  </div>
+
+
+<div class="gradient-color text-section">
+  <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<div id="mc_embed_signup">
+<form action="https://mailchi.us2.list-manage.com/subscribe/post?u=c436778fbbff034a01a1bd7ac&amp;id=03ed8a9006" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2><b>Subscribe to my monthly newsletter</b></h2>
+<div class="mc-field-group">
+	<label for="mce-EMAIL"><p>Email Address</p></label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" class="purple-text">
+</div>
+	<div id="mce-responses" class="clear purple-text">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
   <br>
-  <br>
-  <div>
-    <small class="purple-text">&copy; 2020 <a class="purple-text" href="/">Ammielle WB</a></small>
-  </div>
-</footer>
+    <div class="clear"><h4>
+      <input type="submit" class="btn button white-bg purple-text" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+    </h4>
+      </div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</div>
 
-  <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-  <!--End mc_embed_signup-->
-  <script type="text/javascript">
-    var textWrapper = document.querySelector('.ml16');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  <footer>
+    <p class="white-text">Get in touch
+      <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/information_2139-fe0f.png" class="small-emoji" alt=""></p>
+    <br>
+    <div class="socials">
+      <a href="mailto:ammiellewb@gmail.com" class="white-text"><i class="fas fa-envelope fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/ammielle-wambo-becker-6538231b2" class="white-text"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.instagram.com/amms.wb/" class="white-text"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://twitter.com/ammswb" class="white-text"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.youtube.com/channel/UCsp5LFDrt9Ut6pkZBvtOaYA" class="white-text"><i class="fab fa-youtube fa-2x"></i></a>
+      <a href="https://github.com/ammiellewb" class="white-text"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://medium.com/@amms.wb" class="white-text"><i class="fab fa-medium-m fa-2x"></i></a>
+    </div>
+    <br>
+    <br>
+    <div>
+      <small class="white-text">&copy; 2021 <a class="white-text" href="/">Ammielle WB</a></small>
+    </div>
+  </footer>
 
-    anime.timeline({
-        loop: true
-      })
-      .add({
-        targets: '.ml16 .letter',
-        translateY: [-100, 0],
-        easing: "easeOutExpo",
-        duration: 1400,
-        delay: (el, i) => 30 * i
-      }).add({
-        targets: '.ml16',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
-
-    // MDB Lightbox Init
-    $(function() {
-      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-    });
-  </script>
 </body>
+
 
 </html>
