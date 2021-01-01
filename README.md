@@ -1,9 +1,7 @@
 # My Personal Website
 
 ## To Add
-- Embed Mailchimp
-- Create modal plugin for progress bars + "About"
 - Create CDN for personal pic
 - Filter content by class under "Projects"
-- Complete "Engagements" page
 - Create typewriter effect for main text
+- Embed YouTube videos with https://www.w3schools.com/html/html_youtube.asp
